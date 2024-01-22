@@ -3,8 +3,7 @@ let fuelLevel = 21000;
 let engineTemperature = 1200;
 
 /* 5) Implement the following checks using if/else if/else statements:
-
-a) If fuelLevel is above 20000 AND engineTemperature is at or below 2500, print "Full tank. Engines good."
+/a) If fuelLevel is above 20000 AND engineTemperature is at or below 2500, print "Full tank. Engines good."
 
 b) If fuelLevel is above 10000 AND engineTemperature is at or below 2500, print "Fuel level above 50%.  Engines good."
 
