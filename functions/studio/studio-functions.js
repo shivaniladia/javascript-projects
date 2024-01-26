@@ -7,11 +7,10 @@
 let inputString ="apple";
 let inputNumber = '8675309';
 
-//function reverseString(inputString) {
-  //  return inputString.split('').reverse().join('') ;
-//}
-
- // console.log(reverseString(inputString));
+function reverseString(inputString) {
+  return inputString.split('').reverse().join('') ;
+  }
+ console.log(reverseString(inputString));
 
 // 2. Within the function, split the string into an array, then reverse the array.
 
