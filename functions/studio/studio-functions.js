@@ -3,13 +3,35 @@
 // Part One: Reverse Characters
 
 // 1. Define the function as reverseCharacters. Give it one parameter, which will be the string to reverse.
+
+let inputString ="apple";
+let inputNumber = '8675309';
+
+//function reverseString(inputString) {
+  //  return inputString.split('').reverse().join('') ;
+//}
+
+ // console.log(reverseString(inputString));
+
 // 2. Within the function, split the string into an array, then reverse the array.
+
 // 3. Use join to create the reversed string and return that string from the function.
 // 4. Below the function, define and initialize a variable to hold a string.
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 
 // Part Two: Reverse Digits
+
+function reverseCharacters(input) {
+    if (typeof(input)=='string'){
+        return input.split('').reverse().join('') ;
+    } else if (typeof(input) == Number){
+        return Number(input.toString().split('').reverse().join('') ) ;
+    }  
+  }
+  console.log(reverseCharacters(inputString));
+  console.log(reverseCharacters(inputNumber));
+
 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
 // 2. If typeof is ‘string’, return the reversed string as before.
@@ -27,8 +49,27 @@
 // 6. Be sure to print the results from each test case in order to verify your code.
 
 let arrayTest1 = ['apple', 'potato', 'Capitalized Words'];
-let arrayTest2 = [123, 8897, 42, 1168, 8675309];
+let arrayTest2 = ['123', '8897', '42', '1168', '8675309'];
 let arrayTest3 = ['hello', 'world', 123, 'orange'];
+
+let arrayShivani = [];
+
+for (let i = 0; i < arrayTest1.length; i++) {
+    arrayShivani.push(reverseCharacters(arrayTest1[i]));
+   // console.log(arrayShivani);
+}
+
+for (let i = 0; i < arrayTest2.length; i++) {
+    arrayShivani.push(reverseCharacters(arrayTest2[i]));
+   // console.log(arrayShivani);
+}
+
+for (let i = 0; i < arrayTest3.length; i++) {
+    arrayShivani.push(reverseCharacters(arrayTest3[i]));
+   // console.log(arrayShivani);
+}
+
+console.log(arrayShivani);
 
 // Bonus Missions
 
