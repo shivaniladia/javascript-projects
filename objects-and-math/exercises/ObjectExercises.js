@@ -3,6 +3,8 @@ let superChimpOne = {
    species: "Chimpanzee",
    mass: 9,
    age: 6
+   astronautID: 1,
+    move: function () {return Math.floor(Math.random()*11)}
 };
 
 let salamander = {
@@ -19,4 +21,5 @@ let salamander = {
 
 // Print out the relevant information about each animal.
 
-// Start an animal race!
+// Start an animal race
+
