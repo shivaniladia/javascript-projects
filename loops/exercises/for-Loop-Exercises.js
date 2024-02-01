@@ -21,6 +21,17 @@ Construct ``for`` loops to accomplish the following tasks:
 
 
 
-/*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
-  a. One array contains the even numbers, and the other holds the odds.
-  b. Print the arrays to confirm the results. */
+//Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
+  //a. One array contains the even numbers, and the other holds the odds.
+  for (let i = 0; i < otherArr.length; i++) {
+    if (otherArr[i] % 2 == 0) {  
+        evens.push(otherArr[i]);
+      }else {
+        odds.push(otherArr[i];
+  )}
+
+  100 % 3 ==1
+
+  //b. Print the arrays to confirm the results.
+console.log(evens);
+console.log(odds);

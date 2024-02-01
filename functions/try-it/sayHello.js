@@ -1,3 +1,4 @@
-function sayHello() {
-   console.log("Hello, World!");
-}
+functio sayHello
+console.log ("say Hello");
+
+

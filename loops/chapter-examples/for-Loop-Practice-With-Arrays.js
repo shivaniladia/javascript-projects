@@ -1,9 +1,7 @@
-let n = 10;
-let answer = 1;
+// create an array variable containing the names
+let languages = ["JS", "Java", "C#", "Python"];
 
-while (n > 0) {
-   answer = answer + n;
-   n = n + 1;
+for (let i = 0; i < languages.length; i++) {
+   console.log(languages[i]);
 }
-
-console.log(answer);
+// write a for loop that prints each name on a different line
