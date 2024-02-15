@@ -26,7 +26,7 @@ if (crewStatus && computerStatus === 'green'){
 
 if (launchReady) {
    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
-   console.log('Liftoff!');
+   console.log('Shuttle have launched');
 } else {
    console.log('Launch scrubbed.');
 }
