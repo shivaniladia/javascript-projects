@@ -10,12 +10,15 @@ class Astronaut {
 let fox = new Astronaut('Fox', 7, 12);
 
 console.log(fox);
-console.log(fox.age, fox.color);
+//Try modifying or adding properties below.
 
 fox.age = 9;
+console.log(fox.age);
+
 fox.color = 'red';
+console.log(fox.color);
 
-console.log(fox);
-console.log(fox.age, fox.color);
-
-//Try modifying or adding properties below.
+fox.speak = function(){
+  console.log('Hello, I am ' + this.name);
+};
+fox.speak();
